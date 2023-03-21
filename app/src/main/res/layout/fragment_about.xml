@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent"
+    android:background="#9C00A6FB"
+    tools:context=".AboutFragment">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:text="Zo'r 7"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/about"
+        android:text="Arxiv tariflaridan “MILLIY” to‘plamining istalgan tarif rejasiga o‘tish – bepul, tarif to‘plami ichida va boshqa tariflardan o‘tish – 4 200 so‘m. Shuningdek o‘tish abonentlar uchun barcha qulay usullar yordamida amalga oshiriladi: 99880 raqamiga SMS xabar yuborish yo‘li bilan,USSD-so‘rovi orqali, UZTELECOM'ning rasmiy sotuv va xizmat ko‘rsatish ofislarida, abonentning arizasiga binoan yoki MyUZTELECOM mobil ilovasida."
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:padding="20dp"
+        />
+    <TextView
+        android:id="@+id/cod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" *111*1/2/3*11"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:padding="20dp"
+        />
+
+</LinearLayout>
